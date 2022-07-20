@@ -1,0 +1,7 @@
+.container, input,button {
+    display:block;
+}
+
+.container button {
+   margin-top: 0.5rem;
+}

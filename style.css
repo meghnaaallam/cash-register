@@ -1,7 +1,38 @@
-.container, input,button {
+.container, input {
     display:block;
+    
+}
+ input {
+    width: 35%;
+    padding: 5px;
+ }
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+#checkNotes {
+    background-color: blueviolet;
+    color: black;
+    padding: 15px;
+    border-radius: 13px;
+    width: 15%;
+
 }
 
-.container button {
-   margin-top: 0.5rem;
+h1 {
+    color: blueviolet;
+}
+
+.container input, .change-table,#checkNotes {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.change-table tr, td{
+    margin-top: 10px;
+    padding: 15px;
+    background-color: green;
 }
